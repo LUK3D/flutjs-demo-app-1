@@ -3,7 +3,6 @@ import {
   RelativeUnits,
   AbsoluteUnits,
   Expanded,
-  Padding,
   Column,
   Container,
   Text,
@@ -15,10 +14,9 @@ import {
   BoxDecoration,
   Row,
   Radius,
-  Spacer,
 } from "@luk3d/flutjs/dist/index.js";
 import { BorderRadius } from "@luk3d/flutjs/dist/painting/index.js";
-import { Alignment, AlignmentGeometry } from "@luk3d/flutjs/dist/painting/alignment.js";
+import {  AlignmentGeometry } from "@luk3d/flutjs/dist/painting/alignment.js";
 import { BoxFit } from "@luk3d/flutjs/dist/painting/boxFit.js";
 import { BoxShadow } from "@luk3d/flutjs/dist/painting/boxShadow.js";
 import { FontWeight } from "@luk3d/flutjs/dist/ui/text.js";
@@ -27,7 +25,7 @@ import { Image, _Image } from "@luk3d/flutjs/dist/widgets/index.js";
 import {
   Scaffold,
   WindiApp,
-  AppBar,
+
 } from "@luk3d/flutjs/dist/windiapp/index.js";
 
 /**Basic Flutjs App With Tailwind */
