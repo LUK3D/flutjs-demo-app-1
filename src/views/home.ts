@@ -17,14 +17,13 @@ import {
   Radius,
   Spacer,
 } from "@luk3d/flutjs/dist/index.js";
-import { BorderRadius } from "@luk3d/flutjs/dist/painting";
-import { Alignment, AlignmentGeometry } from "@luk3d/flutjs/dist/painting/alignment";
-import { BoxFit } from "@luk3d/flutjs/dist/painting/boxFit";
-import { BoxShadow } from "@luk3d/flutjs/dist/painting/boxShadow";
-import { FontWeight } from "@luk3d/flutjs/dist/ui/text";
-import { Offset } from "@luk3d/flutjs/dist/utils/offset";
-import { Image, _Image } from "@luk3d/flutjs/dist/widgets";
-import { Button } from "@luk3d/flutjs/dist/widgets/Button.js";
+import { BorderRadius } from "@luk3d/flutjs/dist/painting/index.js";
+import { Alignment, AlignmentGeometry } from "@luk3d/flutjs/dist/painting/alignment.js";
+import { BoxFit } from "@luk3d/flutjs/dist/painting/boxFit.js";
+import { BoxShadow } from "@luk3d/flutjs/dist/painting/boxShadow.js";
+import { FontWeight } from "@luk3d/flutjs/dist/ui/text.js";
+import { Offset } from "@luk3d/flutjs/dist/utils/offset.js";
+import { Image, _Image } from "@luk3d/flutjs/dist/widgets/index.js";
 import {
   Scaffold,
   WindiApp,
